@@ -21,7 +21,7 @@ This web application manages events and users. It demonstrates **MVC architectur
 2. **Home Page** – Displays welcome message:
 
    ```
-   Welcome to Quick-Event Solution Ltd.
+   Welcome to Nexa Ltd.
    ```
 
 3. **All Events Page** – Displays all events (past & upcoming) in a table.
