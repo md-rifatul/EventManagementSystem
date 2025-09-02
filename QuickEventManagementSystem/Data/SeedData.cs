@@ -10,9 +10,9 @@ namespace QuickEventManagementSystem.Data
         static SeedData()
         {
             Users.Add(new User {UserID=1,FirstName="Rifatul",LastName="Islam",ContactNumber="01712345678",Email="rifatul@gmail.com",UserType=UserType.Admin });
-            Users.Add(new User {UserID=1,FirstName="Akhlakul",LastName="Islam",ContactNumber="01912345678",Email="shaker@gmail.com",UserType=UserType.Standard });
-            Users.Add(new User {UserID=1,FirstName="Mahfuz",LastName="Mia",ContactNumber="01812345678",Email="mahfuz@gmail.com",UserType=UserType.External });
-            Users.Add(new User {UserID=1,FirstName="Pranto",LastName="Islam",ContactNumber="01612345678",Email="pranto@gmail.com",UserType=UserType.Guest });
+            Users.Add(new User {UserID=2,FirstName="Akhlakul",LastName="Islam",ContactNumber="01912345678",Email="shaker@gmail.com",UserType=UserType.Standard });
+            Users.Add(new User {UserID=3,FirstName="Mahfuz",LastName="Mia",ContactNumber="01812345678",Email="mahfuz@gmail.com",UserType=UserType.External });
+            Users.Add(new User {UserID=4,FirstName="Pranto",LastName="Islam",ContactNumber="01612345678",Email="pranto@gmail.com",UserType=UserType.Guest });
 
 
             Events.Add(new Event { EventId = 1, EventName = "Tech Conference", Description = "Latest trends in tech.", Date = DateTime.Now.AddDays(5), Address = "Dhaka",AssignedUser = Users[0] });
