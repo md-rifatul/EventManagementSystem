@@ -7,7 +7,13 @@ namespace QuickEventManagementSystem.Controllers
     {
         public IActionResult AllEvents()
         {
-            var events = SeedData.Events;
+            var events = SeedData.Events.ToList();
+            return View(events);
+        }
+        public IActionResult UpcomingEvents()
+        {
+            var events = SeedData.Events.Where(x=>x.Date>DateTime.Today)
+                                        .ToList();
             return View(events);
         }
     }
