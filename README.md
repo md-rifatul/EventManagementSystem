@@ -2,7 +2,6 @@
 
 **Project Type:** ASP.NET Core MVC
 **Project Name:** QuickEventManagementSystem
-**Company Name (Header):** Quick-Event Solution Ltd.
 
 ---
 
