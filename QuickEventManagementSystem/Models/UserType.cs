@@ -2,9 +2,9 @@
 {
     public enum UserType
     {
-        Admin,
-        Standard,
-        External,
-        Guest
+        Admin = 1,
+        Standard = 2,
+        External = 3,
+        Guest = 4
     }
 }
