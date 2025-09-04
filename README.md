@@ -1,7 +1,7 @@
 # Event Management System
 
 **Project Type:** ASP.NET Core MVC
-**Project Name:** EventManagementSystem
+**Project Name:** QuickEventManagementSystem
 
 ---
 
